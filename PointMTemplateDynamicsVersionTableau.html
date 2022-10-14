@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Parfumerie Tunisie: parfum, maquillage, cosmétique - Point M Tunisie</title>
-        <meta name="description" content="Version 1 , Affichage stable meme en changeant la taille de fenetre" />
+        <meta name="description" content="Version 2 ,Remplacer l'affichagepar des données dynamiques pour les remplacer aprés par les données de l'utilisateurs " />
         <meta name="description" content="Les grandes marques de parfum, maquillage ou cosmétiques sont chez votre parfumerie en ligne en Tunisie POINT M. Retrouvez toutes nos nouveautés et exclusivités sur pointm.tn" />
 <style>
     td {
@@ -47,6 +47,9 @@
      
 }        
 </style>
+<script>
+
+</script>
     </head>
     <body>
         <table style="width: 800px;">
@@ -69,26 +72,30 @@
             <tr>
              <td style="background-color: #E03E52;
              width: 400px;
-             height:100px;
+             height:80px;
+             line-height: 20px;
              font:white ;
-             font-family: Didot, serif;
+             font-family:Arial, Helvetica, sans-serif;
             padding: 5%;
-            color: white;"><h2>Welcome Foulen  <br>Ben Foulen</h2>
+            color: white;"><h3>Bienvenue <text id="membre">Ben Hmada Asma</text></h3>
 Nous venons d'entamner une trés belle rencontre , la vôtre !<br>
-C'est un plaisir de vous compter parmi nous . 
+C'est un plaisir de vous compter parmi nous. 
 Notre mission est simple : <br>
-Illuminer vos journées !
+Illuminer vos journées !<br>
 <b>Nous nous engageons à faire votre bonheur !</b><br><br>
-<a style="background-color: white;color: #E03E52;">>ACCEDER A MON ESPACE PERSPO</a></td>
-             <td style="width:300;"> <img width="400px"height="350px" src="https://github.com/ineslehbib/PointMTemplate/blob/main/assets/artiste.png?raw=true"></td>
+<b>Votre solde de points :</b> <text id="point">0</text><br>
+<b>Votre carte :</b> <text id="carte">9999000003270</text><br>
+<b>Votre mail : </b><text id="carte">oriflame.sarra@gmail.com</text><br>
+<b>GSM : </b><text id="gsm">+216 55491981</text><br><br>
+<b><a style="background-color: white;color: #E03E52; font-size: 12px;padding: 3px; text-decoration: none;" href="">>ACCEDER A MON ESPACE PERSPO</a></b></td>
+             <td style="width:300;"> <img width="400px"height="420px" style="padding-bottom: -2px;" src="https://github.com/ineslehbib/PointMTemplate/blob/main/assets/artiste.png?raw=true"></td>
             </tr>
             <tr style="text-align:center">
                 <td colspan="2">
                     <h1 style=" font-family: Didot, serif;
                         line-height: 14px;
                         font-size: 25px;
-                        color: #E03E52;
-                     ">JE TROUVE MON BONHEUR</h1>
+                        color: #E03E52;">JE TROUVE MON BONHEUR</h1>
                 </td>
             </tr>
             <tr style="text-align:center">
@@ -122,32 +129,29 @@ Illuminer vos journées !
                 <h1 style=" font-family: Didot, serif;
                 line-height: 14px;
                 font-size: 25px;
-                color: #E03E52;
-             ">Pour des retrouvailles joyeuses</h1>
+                color: #E03E52;">Pour des retrouvailles joyeuses</h1>
                 <h1 style=" font-family: Didot, serif;
                 line-height: 14px;
                 font-size: 25px;
-                color: #E03E52;
-             ">et pleines de surprises !</h1>   </td>
+                color: #E03E52;">et pleines de surprises !</h1>   </td>
             </tr>
             <tr style="text-align:center">
-                <td colspan="2">
-                  <img src="https://github.com/ineslehbib/PointMTemplate/blob/main/assets/facebook.png?raw=true"/>
-                    <img src="https://github.com/ineslehbib/PointMTemplate/blob/main/assets/instagram.png?raw=true"/>
-                    <img src="https://github.com/ineslehbib/PointMTemplate/blob/main/assets/youtube.png?raw=true"/>
-                    <img src="https://github.com/ineslehbib/PointMTemplate/blob/main/assets/website.png?raw=true"/>
+                <td colspan="2"> 
+                <a href="https://www.facebook.com/PointMParfumeries"><img src="https://github.com/ineslehbib/PointMTemplate/blob/main/assets/facebook.png?raw=true"/></a> 
+                <a href="https://www.instagram.com/pointm_parfumeries/"><img src="https://github.com/ineslehbib/PointMTemplate/blob/main/assets/instagram.png?raw=true"/></a>
+                <a href="https://www.youtube.com/channel/UCwW8jwh4T3ehVzxviAKps2A">  <img src="https://github.com/ineslehbib/PointMTemplate/blob/main/assets/youtube.png?raw=true"/></a>  
+                <a href="https://www.pointm.tn/magasins"><img src="https://github.com/ineslehbib/PointMTemplate/blob/main/assets/website.png?raw=true"/></a>
                 </td>
                 </tr>
             <tr style="text-align:center">
-        
                     <td class="PT3" colspan="2" style="background-color:#E03E52;"><h3 style="color: white ;">AU PLAISIR DE VOUS REVOIR !</h3></td>
 
             </tr>
             <tr style="text-align:left;font-family: 'Montserrat',sans-serif;line-height: 25px; font-size: 10px;font-weight: bold;color:rgb(94, 92, 92);"">
             <td style="font-family: 'Montserrat',sans-serif;line-height: 25px; font-size: 10px;font-weight: bold;color:rgb(94, 92, 92);">
-             © POINT M. Tous les droits sont réservés .
+            Copyright © POINT M. Tous les droits sont réservés .
             </td>
-            <td  style="text-align:right">
+            <td  style="text-align:right; cursor:pointer;">
                 Se désabonner
             </td>
             </tr>
